@@ -5,7 +5,7 @@
 This is a USB Stick Eurorack Power supply. 
 
 - It takes +5v from USB power, and turns it into +/-12v and also passes along the 5v. 
-- The key component is a IR0512S DC-DC Converter from XP Power - [Farnell Link](http://uk.farnell.com/xp-power/ir0512s/dc-dc-converter-semi-reg-dual/dp/1860988) which costs about £8.50 and gives 125mA of power on both rails.  This is a standard SIP package, so other dual output DC-DC converters may work in the same spot. I just chose the one with a good output. 
+- The key component is a IR0512S DC-DC Converter from XP Power which [costs about £8.50 from Farnell](http://uk.farnell.com/xp-power/ir0512s/dc-dc-converter-semi-reg-dual/dp/1860988) and gives 125mA of power on both rails.  This is a standard SIP package, so other dual output DC-DC converters may work in the same spot. I just chose the one with a good output. 
 - The board also includes a simple passive headphone output; the 3.5mm mono socket goes through a 50k Volume Pot into the stereo headphone socket. This didn't work well with three-connector iphone earbuds, but was fine with normal stereo headphones. 
 - Seems to work well with portable USB batteries. 
 - The IR0512S is rated 125mA on +12v and -12v, but that seems quite conservative. The Dixie+Turing+Radio Music in the photo below ran quite happily, with an expected current draw of 160mA on +12v, 52mA on -12v. The converter module was warm but certainly not hot. The whole thing was drawing 600mA from the USB port. 
