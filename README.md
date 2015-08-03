@@ -16,6 +16,11 @@ This is a USB Stick Eurorack Power supply.
 2. 125mA isn't very much power. Just because the module seems to run above that rating doesn't mean it's safe or reliable.  
 1. Designing this as a memory stick is conceptually strong, but it would be much safer and easier to use with a female USB socket and a short cable.
 2. Keyed headers are not reverse power protection. 
+ 
+##Status 
+- Eagle files and Gerbers (optimised for [OSH Park](https://oshpark.com/)) are in this repository. 
+- These are Rev1.1 boards. The prototype below is Rev 1, which had the -12v circuit reversed and needed a bit of trimming to get the USB socket on. 
+- This project is Creative Commmons Licensed [CC-BY-SA](https://creativecommons.org/licenses/by-sa/3.0/). If you like the idea, why not develop it a little and submit your changes here? 
 
 ![](https://raw.githubusercontent.com/TomWhitwell/StupidUSBPower/master/Collateral/usbpwr3-main.jpg)  
 ![](https://raw.githubusercontent.com/TomWhitwell/StupidUSBPower/master/Collateral/usbpwr1.jpg)  
