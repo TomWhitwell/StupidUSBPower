@@ -19,8 +19,12 @@ This is a USB Stick Eurorack Power supply.
  
 ##Status 
 - Eagle files and Gerbers (optimised for [OSH Park](https://oshpark.com/)) are in this repository. 
-- These are Rev1.1 boards. The prototype below is Rev 1, which had the -12v circuit reversed and needed a bit of trimming to get the USB socket on. 
+- These are Rev1.1 boards. The prototype below is Rev 1, which had the -12v LED reversed and needed a bit of trimming to get the USB socket on. I haven't built any 1.1 boards, but I'd be very confident that they'll work. 
 - This project is Creative Commmons Licensed [CC-BY-SA](https://creativecommons.org/licenses/by-sa/3.0/). If you like the idea, why not develop it a little and submit your changes here? 
+- I haven't exported a formal BOM. The only non-obvious bits aside from the DC-DC converter are: 
+    - [USB Socket Type A, Through Hole](http://uk.farnell.com/multicomp/mc32603/usb-2-0-type-a-plug-th/dp/1696544)  
+    - [Lumberg  150309 Stereo Socket](http://uk.farnell.com/lumberg/1503-09/connector-rca-jack-3-5mm-3way/dp/1243244)
+    - [Amphenol  T821116A1S100CEU  Shrouded headers](http://uk.farnell.com/amphenol/t821116a1s100ceu/header-vertical-2-54mm-16way/dp/2215308)  
 
 ![](https://raw.githubusercontent.com/TomWhitwell/StupidUSBPower/master/Collateral/usbpwr3-main.jpg)  
 ![](https://raw.githubusercontent.com/TomWhitwell/StupidUSBPower/master/Collateral/usbpwr1.jpg)  
