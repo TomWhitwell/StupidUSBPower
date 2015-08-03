@@ -25,6 +25,7 @@ This is a USB Stick Eurorack Power supply.
     - [USB Socket Type A, Through Hole](http://uk.farnell.com/multicomp/mc32603/usb-2-0-type-a-plug-th/dp/1696544)  
     - [Lumberg  150309 Stereo Socket](http://uk.farnell.com/lumberg/1503-09/connector-rca-jack-3-5mm-3way/dp/1243244)
     - [Amphenol  T821116A1S100CEU  Shrouded headers](http://uk.farnell.com/amphenol/t821116a1s100ceu/header-vertical-2-54mm-16way/dp/2215308)  
+    - [Thonkiconn](http://www.thonk.co.uk/shop/thonkiconn-3-5mm-jack-sockets-x50/) mono jack socket, [Alpha](http://www.thonk.co.uk/shop/ttpots/) Pot, 3mm LEDs, 2k LED Resistors, 47uF 16v capacitor on the 5v line. 
 
 ![](https://raw.githubusercontent.com/TomWhitwell/StupidUSBPower/master/Collateral/usbpwr3-main.jpg)  
 ![](https://raw.githubusercontent.com/TomWhitwell/StupidUSBPower/master/Collateral/usbpwr1.jpg)  
