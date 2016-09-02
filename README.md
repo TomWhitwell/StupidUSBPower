@@ -15,8 +15,8 @@ This is a USB Stick Eurorack Power supply.
 - Just got a [Re:Load2](http://www.arachnidlabs.com/reload-2/) so I've been trying to destroy my USB power prototype. With the IR0512S...
     - 250ma on +12v: Seems to work quite happily, pulling 710ma from the USB port. 
     - 350ma: It appears to work OK. The lights are on, but I'm making no no claims on the power stability, ripple etc, pulling about 1amp from USB, the converter is definitely HOT, but ran for an afternoon without death. 
-    - 460ma: Seems to be the absolute max. Really hot. Above that, when you try to pull more current, all the lights blink and it says goodbye. The IR0512S seems to have an internal fuse, so recovers after it's cooled down. 
-    - I initially had a 1a Polyfuse on the USB line (short circuited for this test) - that certainly seems sensible in the light of this - maybe 750ma would be safer. So: no actual magic smoke but definitely some warm plastic smells. 
+    - 460ma: Seems to be the absolute max. Really hot. Above that, when you try to pull more current, all the lights blink and it says goodbye. The IR0512S seems to have an internal fuse, so recovers after it's cooled down. So: no actual magic smoke but definitely some warm plastic smells.
+    - I initially had a 1a Polyfuse on the USB line (short circuited for this test) - that certainly seems sensible in the light of this - maybe 750ma would be safer.  
     - Conclusions: This was a raw test: power to load, so can't draw any conclusions about what makes a good/stable/safe PSU for your modules, but it explains why I was able to power more than 125ma worth of modules with this thing.
 
 ##Reasons why this is stupid: 
