@@ -10,6 +10,10 @@ This is a USB Stick Eurorack Power supply.
 - Seems to work well with portable USB batteries. 
 - The IR0512S is rated 125mA on +12v and -12v, but that seems quite conservative. The Dixie+Turing+Radio Music in the photo below ran quite happily, with an expected current draw of 160mA on +12v, 52mA on -12v. The converter module was warm but certainly not hot. The whole thing was drawing 600mA from the USB port. 
 
+##Updates 
+- This project has taken off a little bit! [C1T1ZEN](https://www.instagram.com/p/BEDGNGCOpEv/?taken-by=c1t1zen) has been building incredibly cool lunchbox euro boxes powered with his improved version. 
+- Just got a [Re:Load2](http://www.arachnidlabs.com/reload-2/) so I've been trying to destroy my USB power prototype. On the IR0512S without an external fuse I can happily draw 250ma on +12v, (pulling 710ma from the USB port). At 350ma it works OK (i.e. the lights are on, but I'm making no no claims on the power stability, ripple etc), pulling about 1amp from USB, the converter is definitely HOT, ran for an afternoon without death. Absolute max seems to be is about 460ma, and above that, when you try to pull more current, all the lights blink and it says goodbye. Seems to have some internal fuse, so recovers after it's cooled down. I initially had a 1a Polyfuse on the USB line (short circuited for this test) - that certainly seems sensible in the light of this - maybe 750ma would be safer. So: no actual magic smoke but definitely some warm plastic smells. Conclusions: This was a raw test: power to load, so can't draw any conclusions about what makes a good/stable/safe PSU for your modules, but it explains why I was able to power more than 125ma worth of modules with this thing.
+
 ##Reasons why this is stupid: 
 3. There are no fuses or protection devices anywhere in the circuit. If you plug this plus $800 worth of modules into a $2000 laptop, you're taking a risk. NB: Do not do this. 
 4. There is no filtering in the system, so there will be clock noise from the converter on the rails. The datasheet and my measurements suggest it's in the 60-85khz range. Do not use this to play live or record your new album. 
